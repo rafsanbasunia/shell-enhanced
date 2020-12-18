@@ -30,7 +30,7 @@ By default qb-nox is running on 10001 port. So do not change ngrok http port to 
 
 Caution ❗
 
-Rclone sync will sync the exact /home/dl folder. So if you have other files in the root directory of your cloud, make sure you take a backup. You can use copy insted of sync, but this eats more ram. Beware ! If ram usage increases upto 500MiB, you dyno will reboot 😏
+Rclone sync will sync the exact /home/dl folder. So if you have other files in the root directory of your cloud, make sure you take a backup. You can use copy insted of sync, but this eats more ram. Beware ! If ram usage increases upto 500MiB, your dyno will reboot 😏
 
 ## Commands for shell-bot :
 
