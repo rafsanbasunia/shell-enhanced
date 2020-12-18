@@ -2,7 +2,7 @@
 
 This bot is based on [shell-bot](https://github.com/botgram/shell-bot) by [botgram](https://github.com/botgram/).
 
-This shell bot is pre-installed with ![qbt](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/New_qBittorrent_Logo.svg/langfr-110px-New_qBittorrent_Logo.svg.png  = 50x50) and ![rcln](https://upload.wikimedia.org/wikipedia/en/e/ea/Rclone_logo.png  = 50x50). So you can download from trackers where aria2 is restricted! 😅
+This shell bot is pre-installed with ![qbt](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/New_qBittorrent_Logo.svg/langfr-110px-New_qBittorrent_Logo.svg.png) and ![rcln](https://upload.wikimedia.org/wikipedia/en/e/ea/Rclone_logo.png). So you can download from trackers where aria2 is restricted! 😅
 
 If you want extra modules or softwere inside the container, the add your commands in Setup.sh and make sure every command executes successfully. Setup.sh will execute your commands with sudo. Inside the conatiner, you don't have sudo access😐
 
