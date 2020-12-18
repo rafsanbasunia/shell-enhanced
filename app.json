@@ -1,0 +1,19 @@
+{
+    "name": "shell_enhanced",
+    "description": "A modified shell bot that can be used with Telegram",
+    "keywords": ["telegram", "heroku","shellbot","tgbot"],
+    "repository": "https://github.com/rafsanbasunia/shell_enhanced.git",
+    "stack": "container",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "You Telegram Bot token which will be used ton run the shell."
+      },
+      "OWN_ID": {
+        "description": "Your Telegram OwnerID."
+      },
+      "NGROK_TOKEN": {
+        "description": "Your ngrok authToken."
+      }
+    }
+  }
+  
