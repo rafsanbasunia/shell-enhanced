@@ -14,7 +14,7 @@ If you want extra modules or softwere inside the container, the add your command
 If you are not able to Duplicated the repo, then download and upload to your GitHub account mannually. 😂
 
 ## How to use ![qbt](https://i.ibb.co/LPLGww7/langfr-220px-New-q-Bittorrent-Logo-svg.png) :
-🟡 After a successfull deploy, Run this command "/run yes y | qbittorrent-nox & ngrok http 10001"
+🟡 After a successfull deploy, Run this command ```/run yes y | qbittorrent-nox & ngrok http 10001```
 
 🟡 ngrok will give you http and https link for your webUI. Copy it and paste on your browser hit ENTER. You'll have your qb webUI ✔
 
