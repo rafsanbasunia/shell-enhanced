@@ -19,6 +19,7 @@ If you are not able to Duplicated the repo, then download and upload to your Git
 🟡 ngrok will give you http and https link for your webUI. Copy it and paste on your browser hit ENTER. You'll have your qb webUI ✔
 
 IMPORTANT ❗
+
 After few seconds if it shows ```Too many Connections ``` then ngrok token is wrong. RUN this ```/run ngrok authtoken yourtoken``` to set your own ngrok token.
 
 By default qb-nox is running on 10001 port. So do not change ngrok http port to something else.
@@ -27,7 +28,8 @@ By default qb-nox is running on 10001 port. So do not change ngrok http port to 
 1. Make sure you filled all the neccessary values in rclone.conf.
 2. The default qb download directory is /home/dl. After all the downloads are finished, run ```/cancel``` to cancel the ngrok process(qB will be running in the background). You can use this command to backup your file in your cloud folder - ```/run rclone sync /home/dl yourRcloneConfigName:```. To upload in a specific directory in the root folder of the cloud, run - ```/run rclone sync /home/dl yourRcloneConfigName:directoryname```
 
-Caution ❗ 
+Caution ❗
+
 Rclone sync will sync the exact /home/dl folder. So if you have other files in the root directory of your cloud, make sure you take a backup. You can use copy insted of sync, but this eats more ram. Beware ! If ram usage increases upto 500MiB, you dyno will reboot 😏
 
 ## Commands for shell-bot :
