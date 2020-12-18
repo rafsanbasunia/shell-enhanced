@@ -20,7 +20,7 @@ If you are not able to Duplicated the repo, then download and upload to your Git
 
 IMPORTANT ❗
 
-After few seconds if it shows ```Too many Connections ``` then ngrok token is wrong. RUN this ```/run ngrok authtoken yourtoken``` to set your own ngrok token.
+After few seconds if it shows ```Too many Connections ``` then ngrok token is wrong. To set authToken RUN this ```/run ngrok authtoken yourtoken``` to set your own ngrok token.
 
 By default qb-nox is running on 10001 port. So do not change ngrok http port to something else.
 
