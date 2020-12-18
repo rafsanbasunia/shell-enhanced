@@ -7,10 +7,6 @@ This shell bot is pre-installed with ![qbt](https://upload.wikimedia.org/wikiped
 If you want extra modules or softwere inside the container, the add your commands in Setup.sh and make sure every command executes successfully. Setup.sh will execute your commands with sudo. Inside the conatiner, you don't have sudo access😐
 
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/StuartBasunia/mysheely.git)
-
-You can deploy without cloning this repo to test it out.
-
 ## How to Deploy :
 1. Click on Use This Template(this will fork and make your repository privet) 😕
 2. Hit [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/rafsanbasunia/shell-enhanced.git)
