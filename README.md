@@ -61,3 +61,7 @@ Use /upload <file> and I'll send that file to you. If you reply to that message 
 You can also use /file <file> to display the contents of file as a text message. This also allows you to edit the file, but you have to know how...
 
 ## Credits :
+
+[botgram](https://github.com/botgram/)
+[ssnjrthegr8](https://github.com/ssnjrthegr8)
+[c0re100](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
