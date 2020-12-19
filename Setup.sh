@@ -5,7 +5,7 @@ apt-get install qbittorrent-enhanced-nox -qq -y
 curl https://rclone.org/install.sh | bash
 
 echo "Performing additional setup 2"
-wget -qq https://raw.githubusercontent.com/StuartBasunia/qbittorrentWebUI/master/qbittorent.conf \
+wget -qq https://raw.githubusercontent.com/rafsanbasunia/qbittorrentWebUI/master/qbittorent2.conf \
             -O /home/.config/qBittorrent/qBittorrent.conf
 
 echo "Performing additional setup 3"
