@@ -8,5 +8,9 @@ cat > config.json << EOF
 EOF
 echo "Created config for Shell bot"
 
+
+# Sets your ngrok authtoken...
+ngrok authtoken "$NGROK_TOKEN"
+
 echo "Starting Shell bot"
 node server
