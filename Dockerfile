@@ -32,7 +32,10 @@ COPY bot.sh /home
 COPY Setup.sh /home
 
 # This will copy your extra files which you need inside the container.
-COPY /files /home/flies
+COPY /files /home/files
+
+# This will copy your rclone config.
+RUN cp /home/files/rclone.conf /home/.config/rclone/
 
 # ngrok will forward localhost to http or https
 RUN npm install -g ngrok
@@ -42,16 +45,12 @@ RUN npm install -g ngrok
 RUN sh /home/Setup.sh \
  && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-# This will copy your rclone config.
-RUN cp /home/files/rclone.conf /home/.config/rclone/
 
 # This will install the shell bot aka the core.. of your bot.
 RUN git clone https://github.com/botgram/shell-bot.git \
  && cd shell-bot \
  && npm install
 
-# Set your ngrok authtoken...
-RUN ngrok authtoken $NGROK_TOKEN
 
 RUN echo "All Operations Completed Successfully!"
 
