@@ -63,5 +63,6 @@ You can also use /file <file> to display the contents of file as a text message.
 ## Credits :
 
 [botgram](https://github.com/botgram/)
-[ssnjrthegr8](https://github.com/ssnjrthegr8)
+   - For the shell-bot
 [c0re100](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
+   - For qbit-enhanced
