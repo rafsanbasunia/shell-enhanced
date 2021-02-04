@@ -1,4 +1,4 @@
-FROM phusion/baseimage:bionic-1.0.0
+FROM phusion/baseimage:master
 
 # Do not change the Docker container. This bionic container eats less juice than Ubuntu 20.04
 CMD ["/sbin/my_init"]
