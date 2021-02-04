@@ -8,7 +8,7 @@ If you want extra modules or softwere inside the container, the add your command
 
 
 ## How to Deploy :
-1. Download the repo nad upload to your account(make your repository privet) 😕
+1. Download the repo and upload to your account(make your repository privet) 😕
 2. Hit [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/rafsanbasunia/shell-enhanced.git)
 
 If you are not able to Duplicated the repo, then download and upload to your GitHub account mannually. 😂
